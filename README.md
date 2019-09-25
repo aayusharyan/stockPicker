@@ -2,9 +2,9 @@
 Stock Picker Agent
 
 To run this.
-Excute main.py
+Excute `main.py`
 
-You can also pass additional Argument for CSV File (Not Mandatory)
+You can also pass additional Argument for CSV File Path (Not Mandatory)
 
 Libraries used:
 - sys
