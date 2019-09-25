@@ -16,6 +16,5 @@ Libraries used:
 - readline
 - difflib
 - statistics
-- readline
 
 Use Python 3.
