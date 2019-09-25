@@ -15,7 +15,12 @@ def getcsvdata(file_path):
     with open(file_path) as csvfile:
         data = []
         lines = csv.reader(csvfile)
+        first_row = True
         for row in lines:
+            if first_row:
+                first_row = False
+                if not re.match(r"^-?\d*.\d*$", row[2]):
+                    continue
             data.append(row)
         return data
 
